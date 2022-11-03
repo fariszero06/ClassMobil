@@ -51,4 +51,8 @@ System.out.println(Belajar.add(23.4,12.3));
 
 ![Output2](screenshot/output2.png)</p>
 
+## Metode Overloading dan Jenis Promosi </p>
+Satu tipe dipromosikan ke tipe lain secara implisit jika tidak ditemukan tipe data yang cocok. Mari kita memahami konsep dengan gambar yang diberikan di bawah ini:</p>
+
+![Gambar](screenshot/gambar.png)</p>
 

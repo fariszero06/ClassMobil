@@ -148,10 +148,11 @@ Inheritance menggunakan kata kunci “extends” untuk membuat kelas turunan den
 Keuntungan utama dari pewarisan adalah dapat digunakan kembali kode dan juga metode overriding (polimorfisme runtime). Inheritance juga dikenal sebagai hubungan IS-A. </p>
 
 <b> Istilah yang Digunakan dalam Inheritance. </b></p>
-<ul>Kelas: Kelas adalah kumpulan objek yang memiliki properti umum.</ul></p>
-<ul>Kelas Turunan/Sub-kelas: Kelas turunan adalah kelas yang mewarisi dari kelas dasar. Hal ini juga dikenal sebagai subclass atau kelas anak.</ul></p>
-<ul>Kelas Dasar/Superclass: Kelas dasar adalah kelas utama tempat kelas turunan mewarisi fitur. Hal ini juga dikenal sebagai superclass atau kelas induk.</ul></p>
-<ul>Dapat digunakan kembali: Nama itu sendiri mengatakan gunakan kembali kode yang berulang dalam program. Ini adalah mekanisme untuk menggunakan kembali kode yang ada saat Anda membuat kelas baru.</ul></p>
+<li>Kelas: Kelas adalah kumpulan objek yang memiliki properti umum.</li></p>
+<li>Kelas Turunan/Sub-kelas: Kelas turunan adalah kelas yang mewarisi dari kelas dasar. Hal ini juga dikenal sebagai subclass atau kelas anak.</li></p>
+<li>Kelas Dasar/Superclass: Kelas dasar adalah kelas utama tempat kelas turunan mewarisi fitur. Hal ini juga dikenal sebagai superclass atau kelas induk.</li></p>
+<li>Dapat digunakan kembali: Nama itu sendiri mengatakan gunakan kembali kode yang berulang dalam program. Ini adalah mekanisme untuk menggunakan kembali kode yang ada saat Anda membuat kelas baru.
+</li></p>
 
 Tidak mungkin menulis program java tanpa menggunakan warisan. Meningkatkan keterampilan Java Anda dengan mengambil kursus sertifikat akan membantu Anda maju dalam karir Anda. Kursus sertifikat gratis pemrograman java ini mencakup dasar-dasar subjek, termasuk Array dan Fungsi, dan dapat membantu mendapatkan kejelasan yang luar biasa dan membangun fondasi yang kuat. </p>
 

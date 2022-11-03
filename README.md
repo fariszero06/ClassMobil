@@ -156,4 +156,155 @@ Keuntungan utama dari pewarisan adalah dapat digunakan kembali kode dan juga met
 
 Tidak mungkin menulis program java tanpa menggunakan warisan. Meningkatkan keterampilan Java Anda dengan mengambil kursus sertifikat akan membantu Anda maju dalam karir Anda. Kursus sertifikat gratis pemrograman java ini mencakup dasar-dasar subjek, termasuk Array dan Fungsi, dan dapat membantu mendapatkan kejelasan yang luar biasa dan membangun fondasi yang kuat. </p>
 
+## PROGRAM OVERLOADING DAN INHERITANCE DI JAVA. </P>
+<b>1. Kita buat folder didalam dokumen. disini saya kasih nama foldernya "MembuatOverloadingInheritance".</b></p>
+
+![file](screenshot/file.png)</p>
+
+<b>2. Selanjutnya, didalam folder "MembuatOverloadingInheritance" kita buat 4 file yaitu: "Mobil.java, Honda.java, Toyota.java dan Main.java". </b></p>
+
+![Folder](screenshot/folder.png)</p>
+
+<b>3. Selanjutnya, didalam file Mobil.java kita isi kodingannya: </b></p>
+
+```java
+
+public class Mobil {
+    private String merek;
+    private String warna;
+    private int  jumlah_pintu;
+    private String jenis;
+
+    //Ini adalah Get dan Overloading
+    public String getMerek(){
+        return merek;
+    }
+    //Ini adalah Set dan Overloading
+    public void setMerek(String merek){
+        this.merek=merek;
+    }
+
+    public String getWarna(){
+        return warna;
+    }
+
+    public void setWarna(String warna){
+        this.warna=warna;
+    }
+
+    public int getJumlah_pintu(){
+        return jumlah_pintu;
+    }
+
+    public void setJumlah_pintu(int jumlah_pintu){
+        this.jumlah_pintu=jumlah_pintu;
+    }
+
+    public String getJenis(){
+        return jenis;
+    }
+
+    public void setJenis(String jenis){
+        this.jenis=jenis;
+    }
+
+    public void tampilkandata(){
+        System.out.println(".()");
+        System.out.println("Merek Mobil :"+getMerek());
+        System.out.println("Warna Mobil :"+getWarna());
+        System.out.println("Jumlah Pintu :"+getJumlah_pintu());
+        System.out.println("Jenis Mobil :"+getJenis());
+    }
+
+    public void inputdata(String merek, String warna, int jumlah_pintu, String jenis){
+        setMerek(merek);
+        setWarna(warna);
+        setJumlah_pintu(jumlah_pintu);
+        setJenis(jenis);
+    }
+
+
+}
+
+```
+</p>
+<b>4. Selanjutnya, didalam file Honda.java kita isi kodingannya: </b></p>
+
+```java
+public class Honda extends Mobil{
+/**
+ * 
+ */
+public void tampilkan(){
+    double besar_silinder = 5.5;
+    String bahan_bakar = "Pertamax";
+    String kategori = "Sport";
+
+    Mobil m = new Mobil();
+
+    m.inputdata("CRV", "Merah", 4, "Mewah");
+    m.tampilkandata();
+
+    System.out.println("Silinder :"+besar_silinder);
+    System.out.println("Jenis Bahan Bakar :"+bahan_bakar);
+    System.out.println("Jenis Kategori :"+kategori);
+  
+}
+}
+
+```
+</p>
+
+<b>5. Selanjutnya, didalam file Toyota.java kita isi kodingannya: </b></p>
+
+```java
+public class Toyota extends Mobil {
+    public void tampilkan(){
+        double besar_silinder;
+        String bahan_bakar;
+        String kategori;
+
+        besar_silinder=32.5;
+        bahan_bakar="Pertalite";
+        kategori="Off Road";
+    
+        Mobil m = new Mobil();
+    
+        m.inputdata("AVANZA", "Putih", 4, "Off Road");
+        m.tampilkandata();
+    
+        System.out.println("Silinder :"+besar_silinder);
+        System.out.println("Jenis Bahan Bakar :"+bahan_bakar);
+        System.out.println("Jenis Kategori :"+kategori);
+      
+    }
+    
+}
+```
+</p>
+<b>5. Selanjutnya, didalam file Main.java kita isi kodingannya: </b></p>
+
+```java
+public class Main {
+public static void main(String[] args) {
+    System.out.println("HONDA");
+    Honda h = new Honda();
+    h.tampilkan();
+
+    System.out.println("\nTOYOTA");
+    Toyota t = new Toyota();
+    t.tampilkan();
+}
+
+
+}
+```
+<b> Fungsi dari file Main.java adalah untuk menjalankan program dari class mobil. Setelah itu kita RUN programnya di file Main.java.</b></p>
+
+## Output Program: </p>
+
+![Finish](screenshot/Finish.png)</p>
+
+
+
 
